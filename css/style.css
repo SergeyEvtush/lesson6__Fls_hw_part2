@@ -1,0 +1,98 @@
+/*&display=swap*/
+@import url(null.css);
+@font-face{
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Book.woff2") format("woff"),url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"),url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight:700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"),url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight:500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"),url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight:900;
+	font-style: normal;
+	font-display: swap;
+}
+body{
+	font-size: 18px;
+	font-family: "CircularStd";
+}
+.wraper {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.header-title {
+	max-width: 100%;
+	margin: 140px auto 224px;
+	padding:0px 352px 0px 338px;
+	text-align: center;
+}
+[class*="title"]{
+	color: rgba(49, 49, 49, 1);
+}
+[class*="paragraph"]{
+	color:rgba(95, 95, 95, 1);
+}
+.title-text {
+	font-size: 65px;
+font-weight: 400;
+
+line-height: 1.3;
+margin:0px 20px 0px 0px;
+	
+}
+.title-paragraph {
+
+	font-size: 20px;
+	font-weight: 400;
+	
+	line-height: 1.3;
+	
+}
+
+.page-content {
+	margin:0px 725px 0px 207px;
+	max-width: 508px;
+
+}
+.content-title {
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 1.3;
+	margin:0px 0px 20px 0px;
+}
+.content-paragraph {
+	font-weight: 700;
+	line-height: 1.6;
+	margin:0px 0px 60px 0px;
+}
+
+.manager-title {
+	font-weight: "700";
+line-height: 1.3;
+}
+.manager-paragraph {
+	font-weight: "400";
+	color: rgba(184, 184, 184, 1);
+	;
+}
+.page-image {
+	margin:0px 725px 0px 207px;
+	max-width: 468px;
+}
